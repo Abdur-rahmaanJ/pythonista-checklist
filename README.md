@@ -569,16 +569,24 @@ Common topics to be mastered:
 With associated coding. Poor me the expectations of a Python programmer is high.
 
 **Supervised**
+
 _concepts_
+
 - [ ] gradient descent, stochastic gradient descent, cost function, enthropy, gain, overfitting, pruning, kernel trick
+
 _classification_
+
 - [ ] Logistic Regression
 - [ ] Supervised Clustering
+
 _regression_
+
 - [ ] Linear Regression
 - [ ] Multivariate Linear Regression
 - [ ] See also: Polynomial, Ridge and Lasso
+
 _mixed_
+
 - [ ] Tree-based
 - [ ] Random Forest
 - [ ] Neural Networks
