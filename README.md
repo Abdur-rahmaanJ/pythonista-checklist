@@ -1,7 +1,7 @@
 # pythonista-checklist
 What you **need** to be a Pro Python Programmer
 
-Based on freelancer.com projects analysis and codementor.io freelancer interviewer guides.
+Included: freelancer.com projects analysis and codementor.io freelancer interviewer guides.
 
 Freelancing requires some tough skills, beyond casual programming. This checklist aims at helping with skilling-up.
 
@@ -69,7 +69,23 @@ Freelancing requires some tough skills, beyond casual programming. This checklis
 - [ ] id()
 
 **String manipulation**
-- [ ]
+- [ ] normal string methods: 
+```
+capitalize, casefold, center, count, encode, endswith, expandtabs, find, format, 
+format_map, index, isalnum, isalpha, isascii, isdecimal, isdigit, isidentifier, 
+islower, isnumeric, isprintable, isspace, istitle, isupper, join, ljust, lower, 
+lstrip, maketrans, partition, replace, rfind, rindex, rjust, rpartition, rsplit, 
+rstrip, split, splitlines, startswith, strip, swapcase, title, translate, upper, zfill
+```
+
+
+**References and copy**
+- .copy(), .deepcopy() and references
+- references within functions
+
+**iterators and generators**
+- [ ] iterator
+- [ ] generators and the yield keyword
 
 **Functions**
 - [ ] declaration
@@ -115,11 +131,23 @@ TabError, TimeoutError, True, TypeError, UnboundLocalError, UnicodeDecodeError, 
 UnicodeError, UnicodeTranslateError, UnicodeWarning, UserWarning, ValueError, Warning, WindowsError, 
 ZeroDivisionError
 ```
+
 **lambdas**
 - [ ] assigned to variables
 - [ ] without arg, with arg, with muliple arguments
 - [ ] keywords with lambdas
 
-**iterators and generators**
-
+>>> dir("a")
+'__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '_
+_eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs
+__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__'
+, '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__',
+'__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__'
+, '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'e
+ncode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isal
+num', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', '
+isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lo
+wer', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust',
+ 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip',
+ 'swapcase', 'title', 'translate', 'upper', 'zfill'
 
